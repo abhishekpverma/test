@@ -1,0 +1,291 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Product Sans;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+    min-height: 100vh;
+}
+
+nav{
+    position: absolute;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 10vh;
+    padding: 0vw 5vw;
+    background-color: #000;
+    z-index: 99;
+}
+
+nav img{
+    width: 4vw;
+}
+
+nav .rght-nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2vw;
+}
+
+nav .rght-nav a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 0.9vw;
+}
+
+#part-1{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 5vw;
+    width: 100%;
+    height: 109vh;
+    gap: 5vh;
+    border-radius: 0px 0px 50px 50px;
+    background-color: #000;
+}
+
+#part-1 h1{
+    width: 80vw;
+    font-size: 6vw;
+    color: #fff;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)1s;
+}
+
+#part-1 p{
+    width: 50vw;
+    font-size: 1.3vw;
+    color: #fff;
+}
+
+#part-1 button{
+    width: 7vw;
+    padding: 1vw 1vw;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+.part-1-img{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    width: 80%;
+    height: 100vh;
+    background-color: #fff;
+    border-radius: 0px 0px 50px 50px;
+}
+
+.part-1-img video{
+    border-radius: 0px 0px 50px 50px;
+}
+
+/* ------------part-2------------- */
+
+#part-2{
+    width: 100%;
+    height: 100vh;
+    background-color: #ebebeb;
+    display: flex;
+}
+
+.lft-part-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2vw;
+    padding: 0vw 5vw;
+    width: 40%;
+    height: 100%;
+}
+
+.lft-part-2 h1{
+    font-size: 2.5vw;
+}
+
+.lft-part-2 p{
+    font-size: 1.2vw;
+}
+
+.lft-part-2 button{
+    width: 7vw;
+    padding: 1vw 1vw;
+    border-radius: 10px;
+    font-weight: 500;
+    border: 1px solid red;
+    background: none;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
+}
+
+.lft-part-2 button:hover{
+    background-color: red;
+    cursor: pointer;
+    color: #fff;
+}
+
+.rght-part-2{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    height: 100vh;
+    gap: 5vw;
+    padding: 2vw 0vw;
+    background-color: #ebebeb;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 25vw;
+    height: 40vh;
+    border-radius: 20px;
+    background-color: #fff;
+}
+
+.img-slot{
+    width: 100%;
+    height: 70%;
+    border-radius: 20px 20px 0px 0px;
+    background-position: center;
+    background-size: cover;
+}
+
+#img-1{
+    background-image: url(https://4point2tech.com/assets/images/iga-international-glory-award-for-augmented-reality-1000x667.png);
+}
+
+#img-2{
+    background-image: url(https://4point2tech.com/assets/images/business-connect-1000x667.png);
+}
+
+#img-3{
+    background-image: url(https://4point2tech.com/assets/images/tamil-nadu-1000x667.png);
+}
+
+#img-4{
+    background-image: url(https://4point2tech.com/assets/images/ct-ravi-inaugurates-gandhiji-augmented-reality-experience-in-bangalore-1000x667.png);
+}
+
+
+.content-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 30%;
+    padding: 0vw 1vw;
+}
+
+
+
+/* -----------------part-3---------------- */
+
+#part-3{
+    display: flex;
+    width: 100%;
+    height: 50vh;
+    background-color: #fff;
+    padding: 5vh 0vw;
+}
+
+.lft-part-3{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2vw;
+    padding: 0vw 5vw;
+}
+
+
+.rght-part-3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10vw;
+    width: 60%;
+    height: 100%;
+}
+
+
+.lft-part-3 h1{
+    font-size: 2.5vw;
+}
+
+.lft-part-3 p{
+    font-size: 1.2vw;
+}
+
+.client-img{
+    width: 10vw;
+    height: 5vw;
+    background-position: center;
+    background-size: cover;
+}
+
+#client-img-1{
+    background-image: url(https://4point2tech.com/assets/images/1-150x100.png);
+}
+
+#client-img-2{
+    background-image: url(https://4point2tech.com/assets/images/4-150x100.png);
+}
+
+#client-img-3{
+    background-image: url(https://4point2tech.com/assets/images/2-150x100.png);
+}
+#client-img-4{
+    background-image: url(https://4point2tech.com/assets/images/5-150x100.png);
+}
+#client-img-5{
+    background-image: url(https://4point2tech.com/assets/images/3-150x100.png);
+}
+
+.footer{
+    height: 30vh;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2vw;
+}
+
+.link{
+    display: flex;
+    gap: 2vw;
+}
+
+.footer a{
+    text-decoration: none;
+    color: white;
+    transition: all cubic-bezier(0.075, 0.82, 0.165, 1) 2s;
+}
+
+.footer a:hover{
+    /* font-size: 1.5vw; */
+    color: red;
+}
+
+.footer p{
+    color: white;
+}
